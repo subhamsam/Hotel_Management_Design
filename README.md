@@ -124,6 +124,8 @@ Repository Structure
     └── ...              
 ________________
 Verification
+The screenshots for the verfications are in the Diagram folder inside folder name Verification
+
 Connectivity
 Ping between PCs in different VLANs and on different floors:
 F1>F2
