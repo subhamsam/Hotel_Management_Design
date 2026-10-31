@@ -1,0 +1,14 @@
+PROBLEM: port-security status is showing disabled after configuration 
+
+
+SOLVE: The problem was that I forgot to apply this one configuration
+
+#switchport port-security
+
+only this config active the port-security in feature in a switchport. only after this code you should apply other configuration like-
+
+#switchport port-security maximum 1
+#switchport port-security mac-address sticky
+#switchport port-security violation shutdown
+
+always remember to active the port-security first than apply this configuration
